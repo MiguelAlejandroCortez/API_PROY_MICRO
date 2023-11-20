@@ -1,0 +1,23 @@
+
+#ENTRADAS
+NET "A[0]" LOC = T10;
+NET "A[1]" LOC = T9;
+NET "A[2]" LOC = V9;
+NET "A[3]" LOC = M8;
+
+#ENTRADAS
+NET "B[0]" LOC = N8;
+NET "B[1]" LOC = U8;
+NET "B[2]" LOC = V8;
+NET "B[3]" LOC = T5;
+
+#ENTRADA
+NET "Ci" LOC = C4;
+
+#SALIDAS
+NET "S[0]" LOC = U16;
+NET "S[1]" LOC = V16;
+NET "S[2]" LOC = U15;
+NET "S[3]" LOC = V15;
+
+NET "Co" loc = T11;

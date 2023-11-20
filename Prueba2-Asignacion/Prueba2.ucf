@@ -1,0 +1,50 @@
+
+#ENTRADAS A
+NET "A[0]" LOC = T10;
+NET "A[1]" LOC = T9;
+NET "A[2]" LOC = V9;
+NET "a[3]" LOC = M8;
+
+#ENTRADAS B
+NET "B[0]" LOC = N8;
+NET "B[1]" LOC = U8;
+NET "B[2]" LOC = V8;
+NET "B[3]" LOC = T5;
+
+#Selector
+NET "Selector[0]" LOC = A8;
+NET "Selector[1]" LOC = C4;
+NET "Selector[2]" LOC = C9;
+NET "Selector[3]" LOC = D9;
+
+
+#SALIDAS
+NET "Resultado[0]" LOC = U16;
+NET "Resultado[1]" LOC = V16;
+NET "Resultado[2]" LOC = U15;
+NET "Resultado[3]" LOC = V15;
+
+#Salidas de Display
+NET "HEX0[0]" LOC = "T17";
+NET "HEX0[1]" LOC = "T18";
+NET "HEX0[2]" LOC = "U17";
+NET "HEX0[3]" LOC = "U18";
+NET "HEX0[4]" LOC = "M14";
+NET "HEX0[5]" LOC = "N14";
+NET "HEX0[6]" LOC = "L14";
+NET "HEX0[7]" LOC = "M13";
+
+NET "anodo[0]" LOC = "N16";
+NET "anodo[1]" LOC = "N15";
+NET "anodo[2]" LOC = "P18";
+NET "anodo[3]" LOC = "P17";
+
+#Banderas
+NET "V" LOC = T11;	
+NET "S" LOC = R11;
+NET "Z" LOC = N11;
+NET "C" LOC = M11;
+
+
+
+

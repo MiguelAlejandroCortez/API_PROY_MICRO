@@ -1,0 +1,18 @@
+#ENTRADAS de A y B
+NET "Input_Vector[0]" LOC = T10;
+NET "Input_Vector[1]" LOC = T9;
+NET "Input_Vector[2]" LOC = V9;
+NET "Input_Vector[3]" LOC = M8;
+
+#ENTRADAS
+NET "Reset" LOC = C4;
+NET "Asignacion" LOC = D9;
+
+#ENTRADA RELOJ
+NET "clk" LOC = V10;
+
+#SALIDAS
+NET "Resultado[0]" LOC = U16;
+NET "Resultado[1]" LOC = V16;
+NET "Resultado[2]" LOC = U15;
+NET "Resultado[3]" LOC = V15;

@@ -1,0 +1,232 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Prueba2.twx Prueba2.ncd -o Prueba2.twr Prueba2.pcf -ucf
+Prueba2.ucf
+
+Design file:              Prueba2.ncd
+Physical constraint file: Prueba2.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |C              |   12.928|
+A<0>           |HEX0<0>        |   15.850|
+A<0>           |HEX0<1>        |   15.578|
+A<0>           |HEX0<2>        |   16.060|
+A<0>           |HEX0<3>        |   15.788|
+A<0>           |HEX0<4>        |   15.792|
+A<0>           |HEX0<5>        |   15.953|
+A<0>           |HEX0<6>        |   16.241|
+A<0>           |Resultado<0>   |   15.264|
+A<0>           |Resultado<1>   |   15.605|
+A<0>           |Resultado<2>   |   15.060|
+A<0>           |Resultado<3>   |   14.922|
+A<0>           |S              |   13.245|
+A<0>           |V              |   13.259|
+A<0>           |Z              |   15.611|
+A<1>           |C              |    9.897|
+A<1>           |HEX0<0>        |   15.338|
+A<1>           |HEX0<1>        |   15.066|
+A<1>           |HEX0<2>        |   16.108|
+A<1>           |HEX0<3>        |   15.836|
+A<1>           |HEX0<4>        |   15.647|
+A<1>           |HEX0<5>        |   15.476|
+A<1>           |HEX0<6>        |   15.764|
+A<1>           |Resultado<0>   |   12.233|
+A<1>           |Resultado<1>   |   14.641|
+A<1>           |Resultado<2>   |   15.108|
+A<1>           |Resultado<3>   |   14.759|
+A<1>           |S              |   12.334|
+A<1>           |V              |   12.565|
+A<1>           |Z              |   15.466|
+A<2>           |C              |    9.566|
+A<2>           |HEX0<0>        |   14.505|
+A<2>           |HEX0<1>        |   14.233|
+A<2>           |HEX0<2>        |   15.275|
+A<2>           |HEX0<3>        |   15.003|
+A<2>           |HEX0<4>        |   14.814|
+A<2>           |HEX0<5>        |   14.643|
+A<2>           |HEX0<6>        |   14.931|
+A<2>           |Resultado<0>   |   11.902|
+A<2>           |Resultado<1>   |   13.808|
+A<2>           |Resultado<2>   |   14.275|
+A<2>           |Resultado<3>   |   13.926|
+A<2>           |S              |   11.501|
+A<2>           |V              |   11.732|
+A<2>           |Z              |   14.633|
+A<3>           |C              |    9.922|
+A<3>           |HEX0<0>        |   15.165|
+A<3>           |HEX0<1>        |   14.893|
+A<3>           |HEX0<2>        |   15.935|
+A<3>           |HEX0<3>        |   15.663|
+A<3>           |HEX0<4>        |   15.474|
+A<3>           |HEX0<5>        |   15.303|
+A<3>           |HEX0<6>        |   15.591|
+A<3>           |Resultado<0>   |   12.258|
+A<3>           |Resultado<1>   |   14.468|
+A<3>           |Resultado<2>   |   14.935|
+A<3>           |Resultado<3>   |   14.586|
+A<3>           |S              |   12.161|
+A<3>           |V              |   12.392|
+A<3>           |Z              |   15.293|
+B<0>           |C              |   13.596|
+B<0>           |HEX0<0>        |   16.518|
+B<0>           |HEX0<1>        |   16.246|
+B<0>           |HEX0<2>        |   16.687|
+B<0>           |HEX0<3>        |   16.415|
+B<0>           |HEX0<4>        |   16.460|
+B<0>           |HEX0<5>        |   16.621|
+B<0>           |HEX0<6>        |   16.909|
+B<0>           |Resultado<0>   |   15.932|
+B<0>           |Resultado<1>   |   16.273|
+B<0>           |Resultado<2>   |   15.501|
+B<0>           |Resultado<3>   |   15.590|
+B<0>           |S              |   13.913|
+B<0>           |V              |   13.927|
+B<0>           |Z              |   16.279|
+B<1>           |C              |   13.675|
+B<1>           |HEX0<0>        |   16.597|
+B<1>           |HEX0<1>        |   16.325|
+B<1>           |HEX0<2>        |   16.766|
+B<1>           |HEX0<3>        |   16.494|
+B<1>           |HEX0<4>        |   16.539|
+B<1>           |HEX0<5>        |   16.700|
+B<1>           |HEX0<6>        |   16.988|
+B<1>           |Resultado<0>   |   16.011|
+B<1>           |Resultado<1>   |   16.352|
+B<1>           |Resultado<2>   |   15.580|
+B<1>           |Resultado<3>   |   15.669|
+B<1>           |S              |   13.992|
+B<1>           |V              |   14.006|
+B<1>           |Z              |   16.358|
+B<2>           |C              |   13.613|
+B<2>           |HEX0<0>        |   16.535|
+B<2>           |HEX0<1>        |   16.263|
+B<2>           |HEX0<2>        |   16.704|
+B<2>           |HEX0<3>        |   16.432|
+B<2>           |HEX0<4>        |   16.477|
+B<2>           |HEX0<5>        |   16.638|
+B<2>           |HEX0<6>        |   16.926|
+B<2>           |Resultado<0>   |   15.949|
+B<2>           |Resultado<1>   |   16.290|
+B<2>           |Resultado<2>   |   15.518|
+B<2>           |Resultado<3>   |   15.607|
+B<2>           |S              |   13.930|
+B<2>           |V              |   13.944|
+B<2>           |Z              |   16.296|
+B<3>           |C              |   14.148|
+B<3>           |HEX0<0>        |   17.070|
+B<3>           |HEX0<1>        |   16.798|
+B<3>           |HEX0<2>        |   17.239|
+B<3>           |HEX0<3>        |   16.967|
+B<3>           |HEX0<4>        |   17.012|
+B<3>           |HEX0<5>        |   17.173|
+B<3>           |HEX0<6>        |   17.461|
+B<3>           |Resultado<0>   |   16.484|
+B<3>           |Resultado<1>   |   16.825|
+B<3>           |Resultado<2>   |   16.053|
+B<3>           |Resultado<3>   |   16.142|
+B<3>           |S              |   14.465|
+B<3>           |V              |   14.479|
+B<3>           |Z              |   16.831|
+Selector<0>    |C              |   13.544|
+Selector<0>    |HEX0<0>        |   16.466|
+Selector<0>    |HEX0<1>        |   16.194|
+Selector<0>    |HEX0<2>        |   16.635|
+Selector<0>    |HEX0<3>        |   16.363|
+Selector<0>    |HEX0<4>        |   16.408|
+Selector<0>    |HEX0<5>        |   16.569|
+Selector<0>    |HEX0<6>        |   16.857|
+Selector<0>    |Resultado<0>   |   15.880|
+Selector<0>    |Resultado<1>   |   16.221|
+Selector<0>    |Resultado<2>   |   15.449|
+Selector<0>    |Resultado<3>   |   15.538|
+Selector<0>    |S              |   13.861|
+Selector<0>    |V              |   13.875|
+Selector<0>    |Z              |   16.227|
+Selector<1>    |C              |   13.622|
+Selector<1>    |HEX0<0>        |   16.544|
+Selector<1>    |HEX0<1>        |   16.272|
+Selector<1>    |HEX0<2>        |   16.713|
+Selector<1>    |HEX0<3>        |   16.441|
+Selector<1>    |HEX0<4>        |   16.486|
+Selector<1>    |HEX0<5>        |   16.647|
+Selector<1>    |HEX0<6>        |   16.935|
+Selector<1>    |Resultado<0>   |   15.958|
+Selector<1>    |Resultado<1>   |   16.299|
+Selector<1>    |Resultado<2>   |   15.527|
+Selector<1>    |Resultado<3>   |   15.616|
+Selector<1>    |S              |   13.939|
+Selector<1>    |V              |   13.953|
+Selector<1>    |Z              |   16.305|
+Selector<2>    |C              |   12.870|
+Selector<2>    |HEX0<0>        |   15.792|
+Selector<2>    |HEX0<1>        |   15.520|
+Selector<2>    |HEX0<2>        |   15.961|
+Selector<2>    |HEX0<3>        |   15.689|
+Selector<2>    |HEX0<4>        |   15.734|
+Selector<2>    |HEX0<5>        |   15.895|
+Selector<2>    |HEX0<6>        |   16.183|
+Selector<2>    |Resultado<0>   |   15.206|
+Selector<2>    |Resultado<1>   |   15.547|
+Selector<2>    |Resultado<2>   |   14.775|
+Selector<2>    |Resultado<3>   |   14.864|
+Selector<2>    |S              |   13.187|
+Selector<2>    |V              |   13.201|
+Selector<2>    |Z              |   15.553|
+Selector<3>    |C              |   12.780|
+Selector<3>    |HEX0<0>        |   15.702|
+Selector<3>    |HEX0<1>        |   15.430|
+Selector<3>    |HEX0<2>        |   15.871|
+Selector<3>    |HEX0<3>        |   15.599|
+Selector<3>    |HEX0<4>        |   15.644|
+Selector<3>    |HEX0<5>        |   15.805|
+Selector<3>    |HEX0<6>        |   16.093|
+Selector<3>    |Resultado<0>   |   15.116|
+Selector<3>    |Resultado<1>   |   15.457|
+Selector<3>    |Resultado<2>   |   14.685|
+Selector<3>    |Resultado<3>   |   14.774|
+Selector<3>    |S              |   13.097|
+Selector<3>    |V              |   13.111|
+Selector<3>    |Z              |   15.463|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Nov 19 23:59:19 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4575 MB
+
+
+

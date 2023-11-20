@@ -1,0 +1,18 @@
+NET "HEX0[0]" LOC = "T17";
+NET "HEX0[1]" LOC = "T18";
+NET "HEX0[2]" LOC = "U17";
+NET "HEX0[3]" LOC = "U18";
+NET "HEX0[4]" LOC = "M14";
+NET "HEX0[5]" LOC = "N14";
+NET "HEX0[6]" LOC = "L14";
+NET "HEX0[7]" LOC = "M13";
+
+NET "number[0]" LOC = T10;
+NET "number[1]" LOC = T9;
+NET "number[2]" LOC = V9;
+NET "number[3]" LOC = M8;
+
+NET "anodo[0]" LOC = "N16";
+NET "anodo[1]" LOC = "N15";
+NET "anodo[2]" LOC = "P18";
+NET "anodo[3]" LOC = "P17";
